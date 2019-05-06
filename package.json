@@ -1,0 +1,14 @@
+{
+  "name": "tutorial-bot",
+  "version": "1.0.0",
+  "description": "описание_вашего_бота",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ваши_инициалы",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
