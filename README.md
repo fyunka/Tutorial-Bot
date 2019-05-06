@@ -11,7 +11,7 @@ a simple bot for tutorial purposes (простой бот для учебных 
 
 1. Открываем редактор кода (VSCode) и через **"Add workspace folder"** создаем папку для проекта.
 
-![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.29.16)
+![](images/Screenshot%202019-05-06%2015.29.16)
 
 2. Открываем терминал в редакторе через **> Terminal > New Terminal и вводим команду >**
 
