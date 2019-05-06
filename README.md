@@ -11,13 +11,13 @@ a simple bot for tutorial purposes (простой бот для учебных 
 
 1. Открываем редактор кода (VSCode) и через **"Add workspace folder"** создаем папку для проекта.
 
-![](images/Screenshot 2019-05-06 15.29.16)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.29.16)
 
 2. Открываем терминал в редакторе через **> Terminal > New Terminal и вводим команду >**
 
 			`npm init` (нажимаем Enter)
 
-![](images/Screenshot 2019-05-06 15.35.27)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.35.27)
 
 в конце на вопрос **Is this OK? (yes) >** набираем команду yes и нажимаем Enter
 
@@ -25,13 +25,13 @@ a simple bot for tutorial purposes (простой бот для учебных 
 
 Открываем его в редакторе и в **"description"** прописываем описание вашего бота и по желанию в графе **"author"** (автор) свои инициалы. Сохраняем через команду **CMD + S** для **Mac OS** или **CTRL + S** для **Windows**.
 
-![](images/Screenshot 2019-05-06 15.38.29)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.38.29)
 
 3. Возвращаемся в терминал и подключаем модуль Дискорда через **команду >**
                      
  		`npm install discord.js --save` и нажимаем Enter
 
-![](images/Screenshot 2019-05-06 15.44.23)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.44.23)
 
 4. Переходи в файл **index.js** и прописываем две строки кода: 
 
@@ -42,25 +42,25 @@ a simple bot for tutorial purposes (простой бот для учебных 
 
 5. Переходим на сайт [Discord Developer Portal](https://discordapp.com/developers/applications/) для регистрации бота в своем Дискорде через функцию **"New Application"**
 
-![](images/Screenshot 2019-05-06 15.49.21)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.49.21)
 
 6. Далее копируем токен бота (предварительно создав его через функцию **"Add bot"**) и переходим в редактор, дописываем следующую строку кода:
 
 		`client.login("ВАШ_ТОКЕН");`
 
-![](images/Screenshot 2019-05-06 15.50.53)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.50.53)
 
-![](images/Screenshot 2019-05-06 15.51.16)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.51.16)
 
 7. Для добавления бота на сервер, переходим в раздел **"General Information"** и копируем **Client ID**.
 
-![](images/Screenshot 2019-05-06 15.50.37)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 15.50.37)
 
 8. Далее переходим на страницу **Discord > Permissions Calculator**, тикаем все боксы и в нижней графе **Client ID** вставляем скопированный **ID-номер**. Далее переходим по ссылке для авторизации и добавления бота на сервер. 
 
-![](images/Screenshot_2019-05-06 Discord Permissions Calculator)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot_2019-05-06 Discord Permissions Calculator)
 
-![](images/Screenshot 2019-05-06 16.01.35)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 16.01.35)
 
 9. Прописываем простую команду для бота в файле **index.js**:
 
@@ -74,10 +74,10 @@ client.on('message', (message) => {
 });
 ```
 
-![](images/Screenshot 2019-05-06 16.12.16)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 16.12.16)
 
 10. Запускаем бота через терминал командой:
 		`node .`
 
 
-![](images/Screenshot 2019-05-06 16.08.25)
+![](https://raw.githubusercontent.com/fyunka/Tutorial-Bot/images/Screenshot 2019-05-06 16.08.25)
